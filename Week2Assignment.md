@@ -15,7 +15,7 @@
 
 ## Task Definition:
 1. Set up a github account on github (if you already have it, the proceed with the next instruction)
-2. Fork odoo-custom-addons repository from the link https://github.com/rumeysayilmaz/odoo-custom-addons/ and rename it as ‘odoo-training-TR’
+2. Fork odoo-custom-addons repository from [here](https://github.com/rumeysayilmaz/odoo-custom-addons/)  and rename it as ‘odoo-training-TR’
 3. Make an initial commit with a ‘README.md’ file.
 3. Configure GIT on Pycharm Community IDE (or Anaconda etc.) to the forked directory on your own git account. (This step is required to enable commits directly from the Pycharm environment while you are making software developments)
 4. Set up Odoo version 12 on local computer by following the guidelines on https://github.com/rumeysayilmaz/Odoo_Development on the ‘README.md’ file.
