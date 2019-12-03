@@ -21,4 +21,4 @@
 5. Configure Pycharm IDE by following the [guidelines](https://github.com/rumeysayilmaz/Odoo_Development) on the ‘Odoo Pycharm Configuration.md’ file.
 6. Follow the “Quick Start Using the Developer Mode” on the Book to get familiar with the Odoo development concepts.
 7. Commit, Pull and Push your development on your directory named ‘odoo-training-TR’ throughout your progress.
-8. At the end of the day, make a pull request to ‘odoo-custom-addons’.
+8. At the end of the day, make a pull request to ‘odoo-custom-addons’ on branch named 'week2'.
