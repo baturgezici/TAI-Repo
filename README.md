@@ -1,2 +1,2 @@
-# odoo-custom-addons
-This is a repo for Odoo custom addon developments
+# Odoo Custom Addon Developments
+This is a repository for Odoo custom addon developments.
