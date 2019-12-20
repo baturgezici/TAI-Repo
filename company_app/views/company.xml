@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<odoo>
+    <menuitem id="company_menu"
+              name="Company"/>
+
+    <act_window id="action_company_assign"
+                name="Company Assign"
+                res_model="fm.building"
+                view_mode="tree,form"
+    />
+
+    <menuitem id="menu_comp"
+              name="comp"
+              action="action_company_assign"
+              parent="company_menu"/>
+
+    <!--
+        <act_window id="action_library_categ"
+                    name="Categories"
+                    res_model="library.book.category"
+                    view_mode="tree,form"
+        />
+
+        <menuitem id="menu_library_categ"
+                  name="Categories"
+                  action="action_library_categ"
+                  parent="company_menu"/>
+        />
+     -->
+
+</odoo>

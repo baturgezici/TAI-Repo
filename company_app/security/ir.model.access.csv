@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_normal_user,Normal User,model_fm_building,company_normal_user,1,0,0,0
+access_officer,Officer,model_fm_building,company_officer,1,1,0,0
+access_manager,Manager,model_fm_building,company_manager,1,1,1,1
+access_normal_user_2,Normal User,model_employee_building_assignment,company_normal_user,1,0,0,0
+access_officer_2,Officer,model_employee_building_assignment,company_officer,1,1,0,0
+access_manager_2,Manager,model_employee_building_assignment,company_manager,1,1,1,1
