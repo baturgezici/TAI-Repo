@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<odoo>
+    <menuitem id="company_menu"
+              name="Company"/>
+
+    <act_window id="action_company_assign"
+                name="Company Assign"
+                res_model="fm.building"
+                view_mode="tree,form"
+    />
+
+    <menuitem id="menu_comp"
+              name="Building"
+              action="action_company_assign"
+              parent="company_menu"/>
+
+    <act_window id="action_emp_assign"
+                name="Emp Assign"
+                res_model="employee.building.assignment"
+                view_mode="tree,form"
+    />
+
+    <menuitem id="menu_emp"
+              name="Employee"
+              action="action_emp_assign"
+              parent="company_menu"/>
+
+</odoo>

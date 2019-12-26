@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="view_employee" model="ir.ui.view">
+        <field name="name">Employee Assign</field>
+        <field name="model">employee.building.assignment</field>
+        <field name="arch" type="xml">
+            <form string="Company">
+                <sheet>
+                    <group>
+                        <field name="building_id" options="{'no_create':True}"/>
+                        <field name="employee_id" options="{'no_create':True}"/>
+                        <field name="assignment_start_date"/>
+                        <field name="assignment_end_date"/>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+    <record id="view_tree_employee" model="ir.ui.view">
+        <field name="name">Company</field>
+        <field name="model">employee.building.assignment</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="building_id"/>
+                <field name="employee_id"/>
+                <field name="assignment_start_date"/>
+                <field name="assignment_end_date"/>
+            </tree>
+        </field>
+    </record>
+</odoo>

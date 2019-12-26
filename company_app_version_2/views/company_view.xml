@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+    <record id="view_form_company" model="ir.ui.view">
+        <field name="name">Company Form</field>
+        <field name="model">fm.building</field>
+        <field name="arch" type="xml">
+            <form string="Company">
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="building_name"/>
+                            <field name="building_no"/>
+                            <field name="building_dimension"/>
+                            <field name="construction_year"/>
+                            <field name="structural_system"/>
+                            <field name="office_area_as_mt_square"/>
+                            <field name="under_root_area_as_meter"/>
+                            <field name="under_root_area_as_feet"/>
+                            <field name="active"/>
+                        </group>
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_tree_company" model="ir.ui.view">
+        <field name="name">Company</field>
+        <field name="model">fm.building</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="building_name"/>
+                <field name="office_area_as_mt_square"/>
+                <field name="under_root_area_as_meter"/>
+                <field name="under_root_area_as_feet"/>
+                <field name="building_id"/>
+                <field name="active"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_company_emp" model="ir.ui.view">
+        <field name="name">Company Filters</field>
+        <field name="model">fm.building</field>
+        <field name="arch" type="xml">
+            <search>
+                <field name="building_name"/>
+                <filter name="filter_inactive"
+                        string="Inactive"
+                        domain="[('active','=',True)]"/>
+                <filter name="filter_active"
+                        string="Active"
+                        domain="[('active','=',False)]"/>
+            </search>
+        </field>
+    </record>
+
+</odoo>
