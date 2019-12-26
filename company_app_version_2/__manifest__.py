@@ -11,6 +11,6 @@
      'views/employee.xml'
 
  ],
- 'application': True,
+ 'application': False,
  'installable': True,
  }
