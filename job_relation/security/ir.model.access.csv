@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_normal_user,Normal User,model_employee,company_normal_user,1,0,0,0
+access_officer,Officer,model_employee,company_officer,1,1,0,0
+access_manager,Manager,model_employee,company_manager,1,1,1,1
